@@ -1,0 +1,52 @@
+.nav-main {
+    background-color: #000000;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+   // height: 100px;
+    line-height: 70px;  //text in middle of div  
+}
+
+.logo {
+
+    img { 
+        vertical-align: middle;
+    }
+   &:hover {
+        opacity: 0.5;
+   }
+  }
+
+  .inline {
+    display: inline-flex;      
+}
+
+
+li {
+    a {
+        margin-left: 10px;
+    }
+}
+
+
+.footer-align {
+    padding-top: 25px;
+ }
+
+ .footer-nav {
+     padding-top: 12px;
+ }
+
+ .footer-content {
+    background-color: #fafafa;
+    border-top: #dddddd solid 1px;
+    padding: 0px 30px;
+    line-height: 70px;  //text in middle of div  
+ }
+
+
+ @media (min-width: 990px) {
+    /* to move nav bar links to right */
+    .navbar-right {
+      position: absolute;
+      left: 55%;
+      }
+   }

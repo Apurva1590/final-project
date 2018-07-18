@@ -3,15 +3,191 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>About me | Img</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" /> -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
    
 </head>
 <body>
-    <h1> Welcome!</h1>
+    
+    <div class="container-fluid">
+        <div class="row nav-main">
+            <div class="col-md-12">
+                 <nav class="navbar navbar-expand-lg navbar-dark">
+                     <a class="navbar-brand logo" href="#">
+                        <img src="img/logo-w-60.png" width="50" height="50" alt="Apurva">
+                     </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                     </button>
+            
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="mr-auto navbar-nav navbar-right">
 
-    <script src="js/main.js"></script>
+                            <li class="nav-item">
+                                    <a class="nav-link" href="#">home</a>
+                             </li>
+
+                             <li class="nav-item">
+                                    <a class="nav-link" href="services.html">services</a>
+                                </li>
+
+                            <li class="nav-item active">
+                                <a class="nav-link" href="about.html">about</a>
+                            </li>
+
+                            
+                    
+                            <li class="nav-item">
+                                 <a class="nav-link" href="contact.html">contact</a>
+                            </li>
+
+                            <li class="nav-item inline">
+                                <a class="nav-link" href="https://twitter.com/apurva1590" target="_blank" title="Follow me on twitter">
+                                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a>
+                            
+                                <a class="nav-link space-between" href="https://www.linkedin.com/in/apurva-gupta-509840104/" target="_blank" title="Connect me on linkedin">
+                                        <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+                            
+                                <a class="nav-link" href="https://www.facebook.com" target="_blank" title="Like me on facebook">
+                                    <i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a>
+                            </li>                   
+                        </ul>
+                     </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid">
+        <div class="row row-one">
+                <div class="col-md-6 text-main">
+                    <h1>about me</h1>
+                    <p class="intro">I'm a front-end developer based in MP, India. </p>
+                    <p> Hello, my name is Apurva Porwal, who focuses on writing clean, elegant and efficient code. I tend to code things from scratch and enjoy bringing ideas to life in the browser. I can help you build and grow your next products.</p>
+                   
+                    <a href="https://www.linkedin.com/in/apurva-gupta-509840104/" class="btn btn-secondary btn-sm" role="button" aria-pressed="true"><i class="fa fa-linkedin" aria-hidden="true"></i>   Connect</a>
+                    <a href="https://twitter.com/apurva1590" class="btn btn-primary btn-sm" role="button" aria-pressed="true"><i class="fa fa-twitter" aria-hidden="true"></i>  Follow @apurva1590</a>
+            
+                </div>
+                
+                <div class="col-md-6 img-main">
+                    <img src="img/apu.png" alt="Apurva">
+                </div>
+                <!-- <div class="img-gallery">
+                        <p> Image gallery - About to come</p> 
+                </div> -->
+        <!-- </div>
+        <div class="row row-two">
+                    <div class="col-md-3">
+                        <ul>
+                           <li> <h3>Languages I Speak</h3></li>
+                           <li>HTML</li>
+                           <li>CSS</li>
+                           <li>Javascript</li>
+                           <li>JQuery</li>
+                           <li>AngularJS</li>
+                        </ul>    
+                            
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-pie"> 
+                            <img src="img/plain-icons.png" alt="pie-chart">
+                        </div>
+                    </div>
+                    <div class="col-md-3 part-two">
+                            <ul>
+                                <li> <h3>Dev Tools</h3></li>
+                                <li>Bootstrap</li>
+                                <li>MS Visual Studio</li>
+                                <li>Github</li>
+                                <li>Codepen</li>
+                                <li>Terminal</li>
+                            </ul>  
+                    </div>
+                
+        </div>
+        <div class="row row-three">
+                    <div class="col-md-6">
+                            <div > 
+                                    <img src="img/yoda.jpg" alt="yoda">
+                                </div>
+                    </div>
+                    <div class="col-md-6 part-three">
+                            <ul>
+                                <li> <h3>Random Facts</h3></li>
+                                <li>I turn coffee into code</li>
+                                <li>I love interior design</li>
+                                <li>I love to cook (and eat)</li>
+                                <li>I'm a bit of a clean freak</li>
+                                <li>I love to travel</li>
+                                <li>I worship Lord Ram</li>
+                                <li>I love to read and write</li>
+                            </ul>  
+                    </div>
+                
+        </div>
+        <div class="row row-four">
+                        <div class="col-md-12">
+                            <h3>Work</h3>
+                            <p>Feel free to take a look at my project on github by clicking below</p>
+                            <a href="https://github.com/Apurva1590/" class="btn btn-info btn-sm" role="button" aria-pressed="true">Sample Work</a>
+                            <div class="img-center">
+                            <img src="img/github-icon.png" alt="github-img">
+                            </div>
+                        </div>
+                    
+        </div> 
+        <div id="blog-section" class="row row-five">
+                <div class="col-md-6 part-five">
+                    <h3>Blogs</h3>
+                    <p> I write about technology, programming, productivity, women, self-improvement and life. Check out my blogs by clicking below </p>
+                    <a href="https://medium.com/@apurva1590 " class="btn btn-success btn-sm" role="button" aria-pressed="true">My Blogs</a>
+                </div>
+                
+                <div class="col-md-6 img-main">
+                    <img src="img/blogs-img.png" alt="blog-img">
+                </div>
+        </div> 
+    </div> --> 
+    <footer class="footer-content">
+            <div class="container-fluid">
+                    <div class="row">
+                           
+                        <div class="col-md-4 footer-align">
+                            <p>&copy;2018ApurvaPorwal</p>
+                        </div>
+                            
+                        <div class="col-md-4 footer-nav">
+                            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link" href="about.html">about</a>
+                                    <a class="nav-item nav-link" href="services.html">services</a>
+                                    <a class="nav-item nav-link" href="contact.html">contact</a>
+                                    <a class="nav-item nav-link" href="#blog-section">blog</a>
+                                </div>
+                                    
+                            </nav>
+                        </div>
+                        <div class="col-md-4 footer-align">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <a href="https://facebook.com/" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" target="_blank"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> Like</a>
+                                    &nbsp;
+                                    <a href="https://twitter.com/apurva1590" class="btn btn-primary btn-sm" role="button" aria-pressed="true" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i> Follow @apurva1590</a>
+                                </nav>
+                        </div>
+                    </div>
+                </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
 </body>
 </html>
