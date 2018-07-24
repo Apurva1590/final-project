@@ -1,0 +1,109 @@
+// peach - #FFAB9C
+//purple - #180C86
+// Green - #005A44 
+// Yellow - #FFDD00 
+// Blue - #AFD0EA
+// Maroon - #690029
+// black grey- #181818
+//Light blue - #00E4C4
+//grey - #37393B
+// bg black - #252627
+
+.service-one {
+    background-color: #690029;
+    color: white;
+    padding: 100px 50px;
+    line-height: 30px;
+
+    h3 {
+        color: #AFD0EA;
+        line-height: 50px;
+        padding-top: 100px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        color: black;
+    }
+}
+
+.service-two {
+    background-color:#FFAB9C;
+    color: black;
+    padding: 100px 50px;
+    line-height: 30px;
+
+    h3 {
+        color: #180C86;
+        line-height: 50px;
+        padding-top: 100px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        color: black;
+    }
+}
+
+.service-three {
+    background-color:#005A44;
+    color: white;
+    padding: 100px 50px;
+    line-height: 30px;
+
+    h3 {
+        color: #FFDD00;
+        line-height: 50px;
+        padding-top: 100px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        color:  black;
+    }
+}
+
+.service-four {
+    background-color:#AFD0EA;
+    color: black;
+    padding: 100px 50px;
+    line-height: 30px;
+
+    h3 {
+        color: brown;
+        line-height: 50px;
+        padding-top: 100px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        color: black;
+    }
+}
+
+.column-client {
+    background-color: white;
+    
+    padding: 80px 50px;
+    h3 {
+        padding-bottom: 20px;
+        font-weight: bold;
+        color:  brown;
+    }
+    img {
+      height: 100px;
+      width: 150px;
+     margin: 10px;;
+    }
+    a {
+        position: inline-block;
+    }
+}

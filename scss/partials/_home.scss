@@ -1,10 +1,236 @@
 
 body {
-    font: normal 16px Helvetica,Arial, sans-serif;
+    font-size: 18px;
+    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       // margin: 20px;
+      background-color: #000000;
+     // padding: 0px;
+    //  margin: 0px;
 }
 
 h1 {
-    font: normal 21px Helvetica, Arial;
+    font: normal 48px Helvetica, Arial;
     color: black;
+    
 }
+
+h2 {
+    font: normal 42px Helvetica, Arial;
+    color: #180C86;
+    
+}
+
+h3 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 24px;
+}
+
+#gradient
+{
+ width: 100%;
+ height: 600px;
+ padding: 0px;
+ margin: 0px;
+}
+
+.main-head {
+    h1{
+    padding-top: 100px;
+    }
+    h2 {
+        padding-top: 50px;
+    }
+    p {
+        padding: 30px 100px;
+    }
+}
+
+.ser-one {
+ background-color: #690029;
+ color: white;
+ font-size: 14px;
+ padding: 40px 20px;
+ text-align: center;
+ line-height: 25px;
+    h4 {
+        color:#AFD0EA;
+        padding-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        visibility: hidden;
+        
+    }
+    &:hover button {
+        visibility: visible;
+    }
+
+}
+
+.ser-two {
+    background-color: #FFAB9C;
+    color:black;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    h4 {
+        color:#180C86;
+        padding-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        visibility: hidden;
+    }
+    &:hover button {
+        visibility: visible;
+    }
+}
+
+.ser-three {
+    background-color: #FFF6C9;
+    color: black;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    h4 {
+        color:#DE3163;
+        padding-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        visibility: hidden;
+    }
+    &:hover button {
+        visibility: visible;
+    }
+}
+
+.ser-four {
+    background-color: #005A44;
+    color:white;
+    padding: 40px 20px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 25px;
+    h4 {
+        color:#FFDD00;
+        padding-bottom: 20px;
+    }
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        border: #00E4C4;
+        border-radius: 0px;
+        visibility: hidden;
+    }
+    &:hover button {
+        visibility: visible;
+    }
+}
+
+.testimonial  {
+    background-color:white;
+    padding: 30px;
+  //  margin: 0 10px ;
+}
+
+.blog-section {
+    background-color: #252627;
+    padding: 80px 50px;
+    color: #8D8D8D;
+    font-size: 14px;
+    line-height: 20px;
+    h6 {
+        padding: 20px 0;
+        color: #FFF6C9;
+       // margin-top: 180px;
+        line-height: 30px;
+    }
+    button, a {
+        margin-top:20px;
+        background-color:#FFF6C9;
+        color: black;
+        border: #FFF6C9;
+        border-radius: 0px;
+
+    }
+    img {
+     //   position: absolute;
+        max-width: 90%;
+        
+    }
+    
+}
+
+.blog-one {
+    border-right: 1px solid #8D8D8D;
+    
+
+}
+.blog-two {
+    border-right: 1px solid #8D8D8D;
+
+}
+.blog-three {
+  //  background-color: #FFF6C9;
+
+}
+
+.column-contact {
+   
+    background-color: #FFDD00;
+
+    padding: 100px 80px;
+    line-height: 30px;
+    color: #005A44;
+    button {
+        margin-top: 20px;
+        background-color:#00E4C4;
+        color: black;
+        border: #00E4C4;
+        border-radius: 0px;
+
+        &:hover {
+            transform: scale(1.5);
+            background-color:#00E4C4;
+            color: black;
+
+        }
+    }
+    h3 {
+        margin-bottom: 20px;
+        color: #180C86;
+        font-weight: bold;
+    }
+    
+}
+
+
+body{
+  //  background-color: #000000;
+ // padding: 0px;
+ // margin: 0px;
+}
+
