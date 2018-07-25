@@ -59,7 +59,8 @@ h2 {
   color: #180C86; }
 
 h3 {
-  font-size: 38px; }
+  font-size: 38px;
+  line-height: 30px; }
 
 h4 {
   font-size: 32px;
@@ -238,6 +239,16 @@ h6 {
     border-right: none;
     border-bottom: 1px solid #8D8D8D;
     margin-bottom: 20px; } }
+.item {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  padding-top: 75px;
+  background: #ccc;
+  text-align: center;
+  color: #FFF;
+  font-size: 3em; }
+
 .nav-main {
   background-color: #000000;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, Sans-serif;

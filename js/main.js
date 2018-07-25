@@ -123,3 +123,9 @@ window.addEventListener('Scroll', function(){
     if(numToWatch < 150)
     foo.classList.add('is-inView');
 })
+
+
+
+AOS.init({
+    duration: 1200,
+  })
