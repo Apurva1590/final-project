@@ -26,6 +26,7 @@ h3 {
 
 h4 {
     font-size: 32px;
+    line-height: 30px;
 }
 
 h5 {
@@ -39,7 +40,7 @@ h6 {
 #gradient
 {
  width: 100%;
- height: 600px;
+ //height: 600px;
  padding: 0px;
  margin: 0px;
 }
@@ -55,6 +56,11 @@ h6 {
         padding: 30px 100px;
         line-height: 25px;
     }
+}
+
+.img-head {
+    padding-top: 60px;
+    max-width: 90%;
 }
 
 .ser-one {
@@ -203,15 +209,24 @@ h6 {
 
 .blog-one {
     border-right: 1px solid #8D8D8D;
+    a {
+        margin-bottom: 10px;
+    }
     
 
 }
 .blog-two {
     border-right: 1px solid #8D8D8D;
+    a {
+        margin-bottom: 10px;
+    }
 
 }
 .blog-three {
-  //  background-color: #FFF6C9;
+
+  a {
+    margin-bottom: 10px;
+}
 
 }
 
@@ -245,17 +260,20 @@ h6 {
 }
 
 
-body{
-  //  background-color: #000000;
- // padding: 0px;
- // margin: 0px;
-}
-
-
-@media all  and (min-width: 800px) {
+@media all  and (max-width: 770px) {
    
-    // body {
-    //     background-color: palevioletred;
-    // } 
+    .blog-one {
+        border-right: none;
+        border-bottom: 1px solid #8D8D8D;
+        margin-bottom: 20px;
+        
+    
+    }
+    .blog-two {
+        border-right: none;
+        border-bottom: 1px solid #8D8D8D;
+        margin-bottom: 20px;
+    
+    }
 
 }
