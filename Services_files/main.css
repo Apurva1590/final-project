@@ -47,15 +47,15 @@ table {
 
 body {
   font-size: 18px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   background-color: #000000; }
 
 h1 {
-  font: normal 48px Montserrat, Arial;
+  font: normal 48px Helvetica, Arial;
   color: black; }
 
 h2 {
-  font: normal 42px Montserrat, Arial;
+  font: normal 42px Helvetica, Arial;
   color: #180C86; }
 
 h3 {
@@ -93,14 +93,13 @@ h6 {
   .ser-one h4 {
     color: #AFD0EA;
     padding-bottom: 20px; }
-  .ser-one button, .ser-one a {
+  .ser-one button {
     margin-top: 20px;
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
     visibility: hidden; }
-  .ser-one:hover a {
+  .ser-one:hover button {
     visibility: visible; }
 
 .ser-two {
@@ -113,14 +112,13 @@ h6 {
   .ser-two h4 {
     color: #180C86;
     padding-bottom: 20px; }
-  .ser-two button, .ser-two a {
+  .ser-two button {
     margin-top: 20px;
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
     visibility: hidden; }
-  .ser-two:hover a {
+  .ser-two:hover button {
     visibility: visible; }
 
 .ser-three {
@@ -133,14 +131,13 @@ h6 {
   .ser-three h4 {
     color: #DE3163;
     padding-bottom: 20px; }
-  .ser-three button, .ser-three a {
+  .ser-three button {
     margin-top: 20px;
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
     visibility: hidden; }
-  .ser-three:hover a {
+  .ser-three:hover button {
     visibility: visible; }
 
 .ser-four {
@@ -153,14 +150,13 @@ h6 {
   .ser-four h4 {
     color: #FFDD00;
     padding-bottom: 20px; }
-  .ser-four button, .ser-four a {
+  .ser-four button {
     margin-top: 20px;
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
     visibility: hidden; }
-  .ser-four:hover a {
+  .ser-four:hover button {
     visibility: visible; }
 
 .testimonial {
@@ -273,12 +269,6 @@ li a {
   border-radius: 0px; }
 
 .form-data {
-  padding-bottom: 10px; }
-
-.confirm-msg {
-  background-color: #252627;
-  color: #8D8D8D;
-  margin-top: -30px;
   padding-bottom: 10px; }
 
 .about-main {
@@ -728,12 +718,12 @@ li a {
     color: black; }
 
 .service-four {
-  background-color: #FFF6C9;
+  background-color: #AFD0EA;
   color: black;
   padding: 100px 50px;
   line-height: 30px; }
   .service-four h3 {
-    color: #DE3163;
+    color: brown;
     line-height: 50px;
     padding-top: 100px; }
   .service-four button {

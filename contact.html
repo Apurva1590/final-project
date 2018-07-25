@@ -65,7 +65,7 @@
 
         <div class="row" >
             <div class="col  main-head center" id="gradient" style="height: 400px;">
-                <h2 style="padding-top: 150px;">Like, tweet, email, call or just <br/> drop in for a cup of coffee</h2>
+                <h2 class="animated fadeInDown delay-2s" style="padding-top: 150px;">Like, tweet, email, call or just <br/> drop in for a cup of coffee</h2>
             </div>
         </div>
         <section class="contact-content">
@@ -82,9 +82,13 @@
                         <h4><i class="fa fa-envelope i-gap"></i>info@webwork.com</h4>
                     </div>    
                 </div>
+                
 
                 <div class="row contact-form">
                     <div class="form-data col-md-6">
+                            <div class="confirm-msg" id="confirm-msg" style="display:none;">
+                                    Thank you! We will get back to you as soon as possible.
+                            </div>
                         <form>
                             <div class="form-group">
                                 <input type="text" class="form-control" id="full-name" placeholder="Full Name" autocomplete="off" required >
@@ -100,9 +104,6 @@
                             </div>
                             <button type="submit" id="send" class="btn btn-outline-info pull-right">Send</button>
                         </form>
-                        <div class="thank-you">
-                            <p>Yeah!</p>
-                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="gmap">

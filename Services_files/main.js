@@ -88,38 +88,4 @@ var colorsold = new Array(
 
   $('#send').on('click', function(){     
     console.log('Clicked');
-    var name = document.getElementById('full-name').value;
-        
-    var email = document.getElementById('email').value;
-       
-    var subject = document.getElementById('subject').value;
-       
-    var message = document.getElementById('message').value;
-    
-    console.log(name);
-    console.log(email);
-    console.log(subject);
-    console.log(message);
 });
-
-
-
-
-//scrool listener 
-//get the top position of an element 
-//when a specific top position of an element is at 0 
-//  add a class to it (is-isView)
-
-var foo = document.getElementById('service-1');
-var html = document.getElementsByTagName('html')[0];
-window.addEventListener('Scroll', function(){
-    var elePos = foo.offsetTop;
-    var htmlPos = html.scrollTop;
-    var numToWatch = elePos - htmlPos;
-    console.log(ser_one);
-    console.log(ser_one.offsetTop);
-    console.log(html.scrollTop);
-    console.log(ele-Pos - htmlPos);
-    if(numToWatch < 150)
-    foo.classList.add('is-inView');
-})

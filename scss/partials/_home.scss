@@ -1,7 +1,7 @@
 
 body {
     font-size: 18px;
-    font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, Sans-serif;
       // margin: 20px;
       background-color: #000000;
      // padding: 0px;
@@ -9,13 +9,13 @@ body {
 }
 
 h1 {
-    font: normal 48px Helvetica, Arial;
+    font: normal 48px Montserrat, Arial;
     color: black;
     
 }
 
 h2 {
-    font: normal 42px Helvetica, Arial;
+    font: normal 42px Montserrat, Arial;
     color: #180C86;
     
 }
@@ -67,15 +67,16 @@ h6 {
         color:#AFD0EA;
         padding-bottom: 20px;
     }
-    button {
+    button , a {
         margin-top: 20px;
         background-color:#00E4C4;
         border: #00E4C4;
         border-radius: 0px;
+        color: black;
         visibility: hidden;
         
     }
-    &:hover button {
+    &:hover a {
         visibility: visible;
     }
 
@@ -92,14 +93,15 @@ h6 {
         color:#180C86;
         padding-bottom: 20px;
     }
-    button {
+    button, a {
         margin-top: 20px;
         background-color:#00E4C4;
         border: #00E4C4;
         border-radius: 0px;
+        color: black;
         visibility: hidden;
     }
-    &:hover button {
+    &:hover a {
         visibility: visible;
     }
 }
@@ -115,14 +117,15 @@ h6 {
         color:#DE3163;
         padding-bottom: 20px;
     }
-    button {
+    button, a {
         margin-top: 20px;
         background-color:#00E4C4;
         border: #00E4C4;
         border-radius: 0px;
+        color: black;
         visibility: hidden;
     }
-    &:hover button {
+    &:hover a {
         visibility: visible;
     }
 }
@@ -138,14 +141,15 @@ h6 {
         color:#FFDD00;
         padding-bottom: 20px;
     }
-    button {
+    button, a {
         margin-top: 20px;
         background-color:#00E4C4;
         border: #00E4C4;
         border-radius: 0px;
+        color: black;
         visibility: hidden;
     }
-    &:hover button {
+    &:hover a {
         visibility: visible;
     }
 }
@@ -234,3 +238,11 @@ body{
  // margin: 0px;
 }
 
+
+@media all  and (min-width: 800px) {
+   
+    // body {
+    //     background-color: palevioletred;
+    // } 
+
+}
