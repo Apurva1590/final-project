@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    font: normal 48px Montserrat, Arial;
+    font: bold 48px Montserrat, Arial;
     color: black;
     
 }
@@ -53,6 +53,7 @@ h6 {
     }
     p {
         padding: 30px 100px;
+        line-height: 25px;
     }
 }
 
@@ -73,11 +74,14 @@ h6 {
         border: #00E4C4;
         border-radius: 0px;
         color: black;
-        visibility: hidden;
+       // visibility: hidden;
         
     }
     &:hover a {
-        visibility: visible;
+       // visibility: visible;
+       transform: scale(1.5);
+       background-color:#00E4C4;
+       color: black;
     }
 
 }
@@ -99,10 +103,13 @@ h6 {
         border: #00E4C4;
         border-radius: 0px;
         color: black;
-        visibility: hidden;
+       // visibility: hidden;
     }
     &:hover a {
-        visibility: visible;
+       // visibility: visible;
+       transform: scale(1.5);
+       background-color:#00E4C4;
+       color: black;
     }
 }
 
@@ -123,10 +130,13 @@ h6 {
         border: #00E4C4;
         border-radius: 0px;
         color: black;
-        visibility: hidden;
+       // visibility: hidden;
     }
     &:hover a {
-        visibility: visible;
+       // visibility: visible;
+       transform: scale(1.5);
+       background-color:#00E4C4;
+       color: black;
     }
 }
 
@@ -147,10 +157,13 @@ h6 {
         border: #00E4C4;
         border-radius: 0px;
         color: black;
-        visibility: hidden;
+       // visibility: hidden;
     }
     &:hover a {
-        visibility: visible;
+      //  visibility: visible;
+      transform: scale(1.5);
+      background-color:#00E4C4;
+      color: black;
     }
 }
 

@@ -51,7 +51,7 @@ body {
   background-color: #000000; }
 
 h1 {
-  font: normal 48px Montserrat, Arial;
+  font: bold 48px Montserrat, Arial;
   color: black; }
 
 h2 {
@@ -81,7 +81,8 @@ h6 {
 .main-head h2 {
   padding-top: 50px; }
 .main-head p {
-  padding: 30px 100px; }
+  padding: 30px 100px;
+  line-height: 25px; }
 
 .ser-one {
   background-color: #690029;
@@ -98,10 +99,11 @@ h6 {
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
-    visibility: hidden; }
+    color: black; }
   .ser-one:hover a {
-    visibility: visible; }
+    transform: scale(1.5);
+    background-color: #00E4C4;
+    color: black; }
 
 .ser-two {
   background-color: #FFAB9C;
@@ -118,10 +120,11 @@ h6 {
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
-    visibility: hidden; }
+    color: black; }
   .ser-two:hover a {
-    visibility: visible; }
+    transform: scale(1.5);
+    background-color: #00E4C4;
+    color: black; }
 
 .ser-three {
   background-color: #FFF6C9;
@@ -138,10 +141,11 @@ h6 {
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
-    visibility: hidden; }
+    color: black; }
   .ser-three:hover a {
-    visibility: visible; }
+    transform: scale(1.5);
+    background-color: #00E4C4;
+    color: black; }
 
 .ser-four {
   background-color: #005A44;
@@ -158,10 +162,11 @@ h6 {
     background-color: #00E4C4;
     border: #00E4C4;
     border-radius: 0px;
-    color: black;
-    visibility: hidden; }
+    color: black; }
   .ser-four:hover a {
-    visibility: visible; }
+    transform: scale(1.5);
+    background-color: #00E4C4;
+    color: black; }
 
 .testimonial {
   background-color: white;
@@ -214,7 +219,7 @@ h6 {
 
 .nav-main {
   background-color: #000000;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, Sans-serif;
   line-height: 70px; }
 
 .logo img {
